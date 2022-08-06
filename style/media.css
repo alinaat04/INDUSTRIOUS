@@ -1,0 +1,30 @@
+@media screen and (max-width: 1250px) {
+    .feature-card{
+        max-width: 1000px;
+    }
+}
+@media screen and (max-width: 600px){
+    .banner-text h1, .flex-column-center h2, .parallax-wrapper h2{
+        font-size: 30px;
+    }
+    .banner-text p,.flex-column-center .special{
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+@media screen and (max-width: 430px){
+    .parallax-wrapper p{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 550px){
+    .card-img{
+        padding-top: 15px;
+        padding-left: 10px;
+    }
+}
+@media screen and (max-width: 1375px){
+    .social, .links{
+        padding-top: 30px;
+    }
+}
